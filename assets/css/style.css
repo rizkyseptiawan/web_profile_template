@@ -1,0 +1,245 @@
+p{
+    color: rgb(155, 155, 155);
+}
+ul{
+    text-decoration: none;
+}
+.bg-nav{
+    background-image: linear-gradient(45deg,#44DCDD, #5D6CDF);
+    padding: 5px;
+    width: 100%;
+    box-shadow: 0px 2px 6px rgb(0,0,0,0.3);
+}
+.bg-header{
+    background-image: linear-gradient(10deg,#44DCDD, #5D6CDF);
+    padding: 7px 7px 90px;
+    width: 100%;
+    box-shadow: 0px 2px 6px rgb(0,0,0,0.3);
+}
+
+.bg-content{
+    background-image: linear-gradient(10deg,#44DCDD, #5D6CDF);
+    padding: 7px 7px 90px;
+    width: 100%;
+    box-shadow: 0px 2px 6px rgb(0,0,0,0.3);
+}
+.bg-login{
+    background-image: linear-gradient(45deg,#44DCDD, #5D6CDF);
+    background-size: cover;
+    height: 100vh;
+}
+.logo {
+    display: flex;
+    color: white;
+    justify-items: center;
+    align-items: center;
+    height: auto;
+    min-height: 100%;
+}
+
+.logo a>img{
+    padding: 1px 5px;
+
+}
+
+/* menu utama */
+
+.menu {
+    color: white;
+    position: relative;
+}
+
+.menu-utama ul li {
+ display: inline-block;
+}
+.menu-utama ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.menu .masuk {
+    display: inline-block;
+    background-color: transparent;
+    padding: 10px 20px;;
+    color: white;
+    border: white solid 1px ;
+    border-radius: 20px;
+    float: right;
+    margin-top: -45px;
+}
+.masuk{
+    display: inline-block;
+    background-color: transparent;
+    padding: 10px 20px;;
+    color: white;
+    border: white solid 1px ;
+    border-radius: 20px;
+    float: right;
+    margin-top: 20px;
+}
+.masuk a{
+    text-decoration: none;
+    color: white
+}
+.history{
+    box-shadow:2px 2px 5px 0px rgb(199, 198, 198);
+    width: 100%;
+    padding: 0.02px 30px;
+    color: rgb(155, 155, 155);
+}
+.content{
+    margin: 30px 0;
+    position: relative;
+    color: rgb(145, 144, 144);
+}
+.judul{
+    text-align: center;
+    margin: 30px 0 15px;
+    color:  rgb(145, 144, 144);
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-weight: 400;
+}
+hr{
+    width: 80px;
+    margin: auto;
+    background-color:  #50aade;
+    height: 5px;
+    border-radius: 100px;;
+    border-color: transparent;
+    margin-bottom: 20px;
+}
+.gambar {
+    box-shadow:2px 2px 5px 0px rgb(199, 198, 198);
+    margin: 50px 0px 15px;
+}
+
+.content ul li{
+    text-decoration: none;
+}
+label{
+    margin: 15px;
+}
+
+input, section {
+    clear: both;
+    padding-top: 50px;
+    display: none;
+    margin: 10px;
+}
+label:hover{
+    cursor: pointer;
+    text-decoration: underline;  
+}
+#tab1:checked ~ #content1, #tab2:checked ~ #content2, #tab3:checked ~ #content3, #tab4:checked ~ #content4 {
+    display: inline;
+}
+input:checked + label {
+    padding: 10px 30px;;
+    background-color: #50aade;
+    color: white;
+    border: transparent;
+    border-radius: 20px;
+    box-shadow:2px 2px 5px 0px rgb(199, 198, 198);
+}
+ol li{
+    margin: 10px;
+}
+.search{
+    border: 1px solid #868686;
+    border-radius: 30px;
+    padding: 8px 16px;
+    height: 10px;
+    width: 150px;
+    float: right;
+    display: inline;
+}
+.content .col-3{
+    margin: 10px 0px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.col-3 .gambar{
+    border-radius: 100px;
+}
+.kedudukan{
+    padding: 10px 30px;
+    background-color: white;
+    color: #50aade;
+    border: transparent;
+    border-radius: 20px;
+    box-shadow:2px 2px 5px 0px rgb(199, 198, 198);
+}
+.col-8 .kedudukan{
+    padding: 10px 20px;;
+    font-size: 20px;
+    box-shadow: none;
+}
+.col-8 h1{
+    color: white;
+    font-size: 50px;
+    margin: 10px 0px;
+}
+.bg-header p{
+    color: white;
+}
+.col-2 .gambar{
+    margin: auto;
+}
+.tombol{
+    padding: 10px 30px;
+    background-color: #50aade;
+    color: white;
+    border: transparent;
+    border-radius: 20px;
+    box-shadow:2px 2px 5px 0px rgb(199, 198, 198);
+}
+.bg-content h1{
+    color : white;
+}
+.bg-content p{
+    color : white;
+}
+.bg-content hr{
+    background-color: white;
+    box-shadow:2px 2px 1px 0px rgb(138, 137, 137)
+}
+.grafis{
+    border-radius: 100%;
+    border-color: #50aade;
+    color: #50aade;
+    text-align: center;
+    border: 5px #50aade solid;
+    padding: 30% 0%;
+    box-shadow: inset 0px 0px 10px 0px rgb(138, 137, 137);
+    background: transparent;
+}
+.angka{
+    font-size: 50px;
+    color: #50aade;
+}
+.huruf{
+    color: #50aade;
+    font-size: 20px;
+}
+.box-login{
+    width: 400px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px;
+    margin: auto;
+}
+.box-login .huruf{
+    font-size: 30px;
+    text-align: center;
+    color: #5D6CDF;
+}
+.box-login hr{
+    clear: both;
+    width: 300px;
+    background-color: #5D6CDF;
+    height: 0px;
+}
+.circle{
+    padding: 10%;
+}
