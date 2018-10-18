@@ -7,48 +7,53 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Universitas Negeri Jember</title>
 </head>
 
 <body>
-    <div class="bg-nav">
+    <div class="bg-nav bg-gradient">
         <div class="wadah">
             <!-- Sa iki row kudu enek setiap kate ganti baris yo
-                oyii sep -->
+                                oyii sep -->
             <div class="row">
                 <div class="col-4">
-                    <div class="logo">
-                        <a>
-                            <img src="assets/img/unej putih.png" width="50px" alt="">
-                            Universitas Jember</a>
-                    </div>
-
+                    <a>
+                        <img src="assets/img/logo.png" height="50px" alt="">
+                    </a>
                 </div>
                 <div class="col-8">
                     <div class="menu">
                         <nav class="menu-utama">
                             <ul>
-                                <li class="menu"><a href="">Beranda</a></li>
-                                <li class="menu"><a href="">Tentang</a></li>
-                                <li class="menu"><a href="">Struktur Organisasi</a></li>
-                                <li class="menu"><a href="">Informasi Grafis</a></li>
-                                <li class="menu"><a href="">Kontak</a></li>
+                                <li class="menu"><a href="index.html">Beranda</a></li>
+                                <li class="menu"><a href="#tentang">Tentang</a></li>
+                                <li class="menu"><a href="#struktur">Struktur Organisasi</a></li>
+                                <li class="menu"><a href="#informasi">Informasi Grafis</a></li>
+                                <li class="menu"><a href="#kontak">Kontak</a></li>
                             </ul>
                         </nav>
-                        <button class="masuk"><a href="">Masuk</a></button>
+                        <a href="masuk.html" class="masuk">Masuk</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="bg-header">
         <div class="wadah">
             <div class="row">
                 <div class="col-8">
                     <h1>UNIVERSITAS JEMBER</h1>
                     <button class="kedudukan"><b>Tradition Of Excellence</b></button>
-                    <p>Universitas Jember (disingkat UNEJ atau UJ) adalah sebuah perguruan tinggi negeri terbesar di bagian timur Provinsi Jawa Timur yang terletak di Kota Jember, sebuah kota berhawa tropis di bagian tenggara Provinsi Jawa Timur.
-                         Kampus UNEJ berada di kawasan hijau yang ramah lingkungan sehingga memberikan ketenangan dalam melaksanakan kegiatan akademik. Kota Jember sendiri berada di antara Kawah Ijen dan Gunung Bromo serta dikelilingi perkebunan yang sebagian besar ditanami tembakau, kopi, cokelat, dan tebu.</p>
+                    <p class="text-home" style="color: white !important">Universitas Jember (disingkat UNEJ atau UJ)
+                        adalah sebuah perguruan tinggi negeri terbesar di
+                        bagian timur Provinsi Jawa Timur yang terletak di Kota Jember, sebuah kota berhawa tropis di
+                        bagian tenggara Provinsi Jawa Timur.
+                        Kampus UNEJ berada di kawasan hijau yang ramah lingkungan sehingga memberikan ketenangan dalam
+                        melaksanakan kegiatan akademik. Kota Jember sendiri berada di antara Kawah Ijen dan Gunung
+                        Bromo serta dikelilingi perkebunan yang sebagian besar ditanami tembakau, kopi, cokelat, dan
+                        tebu.</p>
 
                 </div>
                 <div class="col-4">
@@ -57,79 +62,161 @@
             </div>
         </div>
     </div>
-    <div class="wadah">
+    <div id="tentang" class="wadah">
         <div class="row">
             <div>
-                <h1 class="judul">TENTANG UNEJ</h1><hr>
+                <h1 class="judul">TENTANG UNEJ</h1>
+                <hr>
             </div>
             <div class="col-8">
-                <p>Cikal bakal Universitas Jember berasal dari gagasan dr. R. Achmad bersama-sama dengan R. Th. Soengedi dan R. M. Soerachman 
-                    yang bercita-cita mendirikan perguruan tinggi di Jember. Untuk mewujudkan cita-cita tersebut pada tanggal 1 April 1957, ketiganya membentuk panitia yang diberi nama Panitia Triumviraat dengan komposisi Ketua dr. R. Achmad; Penulis R. Th. Soengedi, dan Bendahara R. M. Soerachman.
-                    Selanjutnya Panitia Triumviraat ini pada tanggal 5 Oktober 1957 membentuk yayasan dengan nama Yayasan Universitas Tawang Alun (disahkan...</p>
-                <button class="tombol"><a>Selengkapnya...</a></button>
+                <p class="text-home">Cikal bakal Universitas Jember berasal dari gagasan dr. R. Achmad bersama-sama
+                    dengan R. Th.
+                    Soengedi dan R. M. Soerachman
+                    yang bercita-cita mendirikan perguruan tinggi di Jember. Untuk mewujudkan cita-cita tersebut pada
+                    tanggal 1 April 1957, ketiganya membentuk panitia yang diberi nama Panitia Triumviraat dengan
+                    komposisi Ketua dr. R. Achmad; Penulis R. Th. Soengedi, dan Bendahara R. M. Soerachman.
+                    Selanjutnya Panitia Triumviraat ini pada tanggal 5 Oktober 1957 membentuk yayasan dengan nama
+                    Yayasan Universitas Tawang Alun (disahkan...</p>
+                <a href="Tentang Unej.html" class="tombol">Selengkapnya...</a>
             </div>
             <div class="col-2">
                 <img class="gambar" src="assets/img/monumenunej.jpg" width="300px" alt="">
             </div>
         </div>
     </div>
-    <div class="bg-content">
+    <div id="struktur" class="bg-content">
         <div class="wadah">
             <div class="row">
-                    <h1 class="judul">STRUKTUR ORGANISASI</h1><hr>
-                    <div class="content">
-                            <div class="col-3">
-                                <img src="assets/img/1.jpg" class="gambar">
-                                <p><b>Drs. Moh. Hasan,M.Sc, Ph.D</b></p>
-                                <button class="kedudukan"><b>Rektor</b></button>
-                            </div>
-                            <div class="col-3">
-                                <img src="assets/img/2.jpg" class="gambar">
-                                <p><b>Drs. Zulfikar, Ph.D</b></p>
-                                <button class="kedudukan"><b>Wakil Rektor I</b></button>
-                            </div>
-                            <div class="col-3">
-                                <img src="assets/img/3.jpg" class="gambar">
-                                <p><b>Drs. Wachju Subchan,M.S., Ph.D</b></p>
-                                <button class="kedudukan"><b>Wakil Rektor II</b></button>
-                            </div>
-                            <div class="col-3">
-                                <img src="assets/img/4.jpg" class="gambar"><br>
-                                <p><b>Prof. Dr. M. Sulton, M.Pd</b></p>
-                                <button class="kedudukan"><b>Wakil Rektor III</b></button>
-                            </div>
-                        </div>
+                <h1 class="judul">STRUKTUR ORGANISASI</h1>
+                <hr>
+                <div class="konten">
+                    <div class="col-3">
+                        <img src="assets/img/1.jpg" class="gambar">
+                        <p><b>Drs. Moh. Hasan,M.Sc, Ph.D</b></p>
+                        <button class="kedudukan"><b>Rektor</b></button>
+                    </div>
+                    <div class="col-3">
+                        <img src="assets/img/2.jpg" class="gambar">
+                        <p><b>Drs. Zulfikar, Ph.D</b></p>
+                        <button class="kedudukan"><b>Wakil Rektor I</b></button>
+                    </div>
+                    <div class="col-3">
+                        <img src="assets/img/3.jpg" class="gambar">
+                        <p><b>Drs. Wachju Subchan,M.S., Ph.D</b></p>
+                        <button class="kedudukan"><b>Wakil Rektor II</b></button>
+                    </div>
+                    <div class="col-3">
+                        <img src="assets/img/4.jpg" class="gambar"><br>
+                        <p><b>Prof. Dr. M. Sulton, M.Pd</b></p>
+                        <button class="kedudukan"><b>Wakil Rektor III</b></button>
+                    </div>
+
+                </div>
+
+
             </div>
         </div>
     </div>
-    <div class="wadah">
-        <div class="row">
-            <h1 class="judul">INFORMASI GRAFIS</h1><hr>
-                    <div class="col-4">
-                        <div class="circle">
-                            <div class="grafis">
-                                <span class="angka">15</span><br>
-                                <span class="huruf">FAKULTAS</span>
-                            </div>
+    <div id="informasi" class="informasi">
+        <div class="wadah">
+            <div class="row">
+                <h1 class="judul">INFORMASI GRAFIS</h1>
+                <hr>
+                <div class="col-4">
+                    <div class="circle">
+                        <div class="grafis">
+                            <span class="angka">15</span><br>
+                            <span class="huruf">FAKULTAS</span>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="circle">
-                            <div class="grafis">
-                                <span class="angka">100</span><br>
-                                <span class="huruf">PROGRAM STUDI</span>
-                            </div>
+                </div>
+                <div class="col-4">
+                    <div class="circle">
+                        <div class="grafis">
+                            <span class="angka">100</span><br>
+                            <span class="huruf">PROGRAM STUDI</span>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="circle">
-                            <div class="grafis">
-                                <span class="angka">50</span><br>
-                                <span class="huruf">GURU BESAR</span>
-                            </div>
+                </div>
+                <div class="col-4">
+                    <div class="circle">
+                        <div class="grafis">
+                            <span class="angka">50</span><br>
+                            <span class="huruf">GURU BESAR</span>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="kontak" class="bg-footer bg-gradient">
+        <div class="wadah">
+            <div class="row">
+                <div class="col-6">
+                    <div class="hubungi">
+                        <h1>HUBUNGI KAMI</h1>
+                        <p class="paragraf">
+                            Untuk informasi lebih lanjut , silahkan Anda menghubungi humas Universitas Jember melalui
+                            beberapa kontak yang tersedia berikut, atau Anda dapat langsung mengirim pesan melalui form
+                            kontak di samping.
+                        </p>
+                        <ul class="alamat">
+                            <li>
+                                <span class="fa-li">
+                                    <i class="fa fa-map-marker"></i></span>Kalimantan No. 37, Kampus Tegalboto, Jember,
+                                Jawa Timur, 68121, Indonesia
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fa fa-envelope"></i></span> humas@unej.ac.id</li>
+                            <li><span class="fa-li"><i class="fa fa-mobile"></i></span> (0331) 330-224 | (0331) 334-270</li>
+                            <li><span class="fa-li"><i class="fa fa-calendar-o"></i></span> Senin - Kamis 07.00 s.d
+                                16.00 WIB | Jumat 06.30
+                                s.d 16.30 WIB</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <form>
+                        <div class="form-inline">
+                            <div class="form-group">
+                                <input type="text" name="" placeholder="Masukkan nama ...">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="" placeholder="Masukkan email ...">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" name="" placeholder="Masukkan Subjek ...">
+                        </div>
+
+
+                        <div class="form-group">
+                            <textarea id="" rows="10">Masukkan Pesan .....
+                            </textarea>
+                        </div>
+                        <button class="kirim">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="wadah">
+            <div class="menu">
+                <nav class="menu-utama float-right">
+                    <ul>
+                        <li class="menu"><a href="index.html">Beranda</a></li>
+                        <li class="menu"><a href="Tentang Unej.html">Tentang</a></li>
+                        <li class="menu"><a href="Rektor.html">Struktur Organisasi</a></li>
+                        <li class="menu"><a href="index.html#informasi">Informasi Grafis</a></li>
+                        <li class="menu"><a href="kontak.html">Kontak</a></li>
+                    </ul>
+                </nav>
+                <span class="clear"></span>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
