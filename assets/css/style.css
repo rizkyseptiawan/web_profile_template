@@ -1,292 +1,250 @@
-
-a{
-    text-decoration: none !important;
-}
-ul{
-    text-decoration: none;
-}
-.bg-nav{
-    padding: 1px;
-    width: 100%;
-    box-shadow: 0px 2px 6px rgba(0,0,0,0.3);
-}
-.bg-gradient{
-    background-image: linear-gradient(45deg,#44DCDD, #5D6CDF);
-}
-.bg-blue{
-    background: #5D6CDF;
-}
-.bg-header{
+/* Mengatur Navbar Menu */
+.bar-atas{
     background-image: linear-gradient(10deg,#44DCDD, #5D6CDF);
     width: 100%;
     box-shadow: 0px 2px 6px rgb(0,0,0,0.3);
-    padding: 50px 10px;;
-}
-.bg-header p{
-    line-height: 120%;
-}
-
-.bg-content{
-    background-image: linear-gradient(10deg,#44DCDD, #5D6CDF);
-    width: 100%;
-    box-shadow: 0px 2px 6px rgb(0,0,0,0.3);
-}
-.bg-login{
-    background-image: linear-gradient(45deg,#44DCDD, #5D6CDF);
-    background-size: cover;
-    height: 100vh;
-}
-.logo{
-    width: 40%;
-    margin: 0 70px;
-}
-
-.logo > a{
-    color: white;
-    text-decoration: none;
-}
-
-
-
-
-/* menu utama */
-
-.menu {
-    color: white;
-    position: relative;
-}
-.menu-utama{
-    display: inline-block;
-}
-
-.menu-utama ul li {
- display: inline-block;
-}
-.menu-utama ul li a{
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-}
-
-.masuk{
-    display: inline-block;
-    background-color: transparent;
-    padding: 10px 20px;;
-    color: white;
-    border: white solid 1px ;
-    border-radius: 20px;
-    float: right;
-    text-decoration: none;
-    margin-top:5px;
-    box-shadow:0 5px 6px rgba(0, 0, 0, 0.16); ;
-    -webkit-transition: width 2s; /* Safari */
-    transition: width 2s;
-}
-.masuk:hover{
-    background-color: white;
-    color:#5D6CDF;
-}
-
-.history{
-    box-shadow:2px 2px 5px 0px rgb(199, 198, 198);
-    width: 100%;
-    padding: 5px 20px;
-    color: rgb(155, 155, 155);
-}
-.content{
-    margin-top:120px;
-    position: relative;
-    color: rgb(145, 144, 144);
-}
-.konten{
-    margin-top:5px;
-    position: relative;
-    color: rgb(145, 144, 144);
-}
-.judul{
-    text-align: center;
-    margin: 30px 0 15px;
-    color:  rgb(145, 144, 144);
-    font-family: "Goudy Bookletter 1911", sans-serif;
-    font-weight: 400;
-}
-hr{
-    width: 80px;
-    margin: auto;
-    background-color:  #50aade;
-    height: 5px;
-    border-radius: 100px;;
-    border-color: transparent;
-    margin-bottom: 10px;
-}
-.gambar {
-    box-shadow:2px 2px 5px 0px rgb(199, 198, 198);
-    margin: 50px 0px 15px;
-}
-
-.content ul li{
-    text-decoration: none;
-}
-.input>label{
-    margin: 15px;
-}
-
-.input input{
-    display: none;
-}
-.section {
-    clear: both;
-    padding-top: 100px;
-    margin: 20px 0 0 0;
-    display: none;
-    text-align: justify;
-    text-indent: 20px;
-}
-.input>label:hover{
-    cursor: pointer; 
-}
-#tab1:checked ~ #content1, #tab2:checked ~ #content2, #tab3:checked ~ #content3, #tab4:checked ~ #content4 {
-    display: inline;
-}
-.input>input:checked + label {
-    padding: 10px 30px;;
-    background-color: #50aade;
-    color: white;
-    border: transparent;
-    border-radius: 20px;
-    box-shadow:0 5px 6px rgba(0, 0, 0, 0.16); ;
-    -webkit-transition: width 2s; /* Safari */
-    transition: width 2s;;
-}
-ol li{
-    margin: 10px;
-}
-.search{
-    border: 1px solid #868686;
-    border-radius: 30px;
-    padding: 10px;
-    width: 150px;
-    float: right;
-    display: inline;
-}
-.content .col-3{
-    margin: 10px 0px;
-    text-align: center;
-    display: inline-block;
-    vertical-align: top;
-}
-.col-3 .gambar{
-    border-radius: 100px;
-}
-.kedudukan{
-    padding: 10px 30px;
-    background-color: white;
-    color: #50aade;
-    border: transparent;
-    border-radius: 20px;
-    box-shadow:2px 2px 5px 0px rgb(199, 198, 198);
-}
-.col-8 .kedudukan{
-    padding: 10px 20px;;
-    font-size: 20px;
-    box-shadow: none;
-}
-.col-8 h1{
-    color: white;
-    font-size: 50px;
-    margin: 10px 0px;
-}
-.bg-header p{
-    color: white;
-}
-.col-2 .gambar{
-    margin: auto;
-}
-.tombol{
-    padding: 10px 30px;
-    background-color: #50aade;
-    color: white;
-    border: transparent;
-    border-radius: 20px;
-    box-shadow:0 5px 6px rgba(0, 0, 0, 0.16); ;
-    -webkit-transition: width 2s; /* Safari */
-    transition: width 2s;
-}
-.bg-content h1{
-    color : white;
-}
-.bg-content p{
-    color : white;
-}
-.bg-content hr{
-    background-color: white;
-    box-shadow:2px 2px 1px 0px rgb(138, 137, 137)
-}
-.grafis{
-    border-radius: 100%;
-    border-color: #50aade;
-    color: #50aade;
-    text-align: center;
-    border: 5px #50aade solid;
-    padding: 30% 0%;
-    box-shadow: inset 0 5px 6px rgba(0, 0, 0, 0.16);
-    background: transparent;
-}
-.angka{
-    font-size: 50px;
-    color: #589ADF;
-    font-weight: 800;
-    
-}
-.huruf{
-    color: #589ADF;
-    font-size: 20px;
-}
-.login{
-    
-        position: fixed;
-        top: 50%;
-        left: 50%;
-       transform: translate(-50%, -50%);
-}
-      
-.box-login{
-    width: 400px;
-    background-color: white;
-    border-radius: 30px;
-    padding: 10px 10px 30px 10px;
-    margin: 10px auto;
-    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
-}
-.box-login .huruf{
-    font-size: 30px;
-    text-align: center;
-    color: #5D6CDF;
-}
-.box-login hr{
-    clear: both;
-    width: 300px;
-    background-color: #5D6CDF;
-    height: 0px;
-}
-.circle{
-    padding: 10%;
+    padding: 8px;
 }
 .transparan{
-    background: transparent;
+    background-image: transparent;
+    width: 100%;
+    padding: 5px;
 }
-.fixed{
+.fixed {
     overflow: hidden;
     position: fixed;
     top: 0;
     z-index: 10;
 }
-
-.bg-footer{
-    color: white;
-    /* background-color: #5D6CDF;
-    opacity: 0.9; */
+.logo{
+    margin-top:10px; 
+}
+.menu-utama{
+    float: right;
+    margin-top: 11px;;
+}
+.menu-utama>ul{
+    display: inline-block;
+    list-style: none;
     
+}
+.menu-utama>ul>li{
+    display: inline-block;
+}
+.menu-utama>ul>li>a{
+    text-decoration: none;
+    color: white;
+    padding : 2px 10px;
+}
+.menu-utama>ul>li>a:hover{
+    color: rgb(211, 211, 211);
+    
+}
+.menu-utama>ul>a.masuk{
+    display: inline-block;
+    background-color: transparent;
+    padding: 10px 20px;
+    color: white;
+    border: white solid 1px ;
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow:0 5px 6px rgba(0, 0, 0, 0.16);
+    -webkit-transition: width 2s;
+    transition: width 2s;
+    
+}
+.menu-utama>ul>a.masuk:hover{
+    background-color: white;
+    color:#5D6CDF;
+    
+}
+.toggle{
+    /* display: flex; */
+    /* align-items: center; */
+    font-size: 30px;
+    color: rgb(255, 255, 255); 
+    padding: 5px 10px;
+    margin-top: 5px;    
+}
+.toggle:hover{
+    color: rgb(186, 190, 219);
+    
+}
+.badge-utama{
+    position: relative;
+    padding: 20px 0;
+    box-shadow:0 5px 6px rgba(0, 0, 0, 0.16);
+}
+.badge{
+    position: relative;
+    padding: 50px 0;
+}
+.bg-gradient{
+    background-image: linear-gradient(45deg,#44DCDD, #5D6CDF);
+}
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+ /* The side navigation menu */
+ .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 10000; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: rgb(7, 121, 187); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    box-shadow: 2px 2px 6px rgb(0,0,0,0.3);
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #00fff2;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav .menu-list a:hover {
+    color: #ffffff;
+    background-color: #5D6CDF;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .margin-top{
+    margin-top: 90px;
+  }
+  .m-t-footer{
+      margin-top: 80px;
+  }
+  .slogan{
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 30px;
+    background-color: white;
+    color: #5D6CDF;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    max-width: 100%;
+    box-shadow:0 5px 6px rgba(0, 0, 0, 0.16);
+  }
+.unej,.text-unej{
+    color: white;
+}
+.tombol-biru{
+    margin: 5px 0;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    width: 30%;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: #50aade;
+    box-shadow:0 5px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 20px;
+}
+p.text-tentang{
+    color: rgb(194, 194, 194);
+    text-align: justify;
+    text-indent: 5%;
+}
+.judul{
+    text-align: center;
+    color: rgb(145, 144, 144);
+}
+.judul-putih{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.judul,.judul-putih{
+    margin: 10px 0;
+}
+.judul:after,.judul-putih:after{
+    content: " ";
+    display: block;
+    margin: 6px auto;
+    border-radius: 10px;
+    width: 10%;
+    box-shadow:0 2px 3px rgba(0, 0, 0, 0.16);
+}
+.judul:after{
+    border-bottom: solid 5px #50aade;
+}
+.judul-putih:after{
+    border-bottom: solid 5px #ffffff;
+}
+
+.gbr-lingkaran{
+    border-radius: 100%;
+}
+.nama-organisasi{
+    display: block;
+    color: white;
+    text-align: center;
+}
+.kotak>.nama-organisasi{
+    display: block;
+    color: rgb(2, 2, 2);
+    text-align: center;
+}
+.kotak{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    min-height: 250px;
+}
+.jabatan{
+    display: block;
+    color: #5D6CDF;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow:0 2px 3px rgba(0, 0, 0, 0.16);
+    margin: 10px 0;
+}
+.circle {
+    background-color: transparent;
+    border-radius: 50%; /* the magic */
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    color: #50aade;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 32% 5%;
+    box-shadow:0 5px 6px rgba(0, 0, 0, 0.16);
+}
+.circle-blue{
+    border: solid 5px #50aade; 
+}
+.angka,.satuan{
+    color: #50aade;
+}
+.angka{
+    font-size: 25px;
+}
+.satuan{
+    font-size: 15px;
 }
 .paragraf{
     color: white;
@@ -294,95 +252,18 @@ ol li{
 .hubungi>.alamat{
     text-align: justify;
     list-style: none;
+    color: white;
 }
 .hubungi>.alamat>li{
     position: relative;
     padding: 2px;
+    margin-left: 25px;
     list-style: none;
     line-height: 20px;
 }
 .alamat>li>p{
     display: inline-block;
 }
-.icon{
-    padding-left: 40px;
-    display: inline-block;
-}
-.kontak input{
-    border: 2px white solid;
-}
-.informasi,.bg-footer,.bg-content{
-    padding: 20px 10px;
-}
-
-.bottom{
-    background: #50aade;
-    padding: 10px;
-}
-.float-right{
-    float: right;
-}
-.float-right::after{
-    clear: both;
-    display: block;
-    content: "";
-}
-span.clear{
-    clear: both;
-    display: block;
-}
-.box-login form{
-    text-align: left;
-    color: black;
-    padding: 0px 50px;
-}
-.box-login>form>label.title{
-    margin-bottom: 5px;
-    margin-top: 5px;
-    text-align: left;
-    color : #50aade;
-    display: block;
-}
-.box-login form input[type=text],.box-login form input[type=password]{
-    border-radius: 15px;
-    border: 2px #50aade solid;
-    width: 100%;
-    padding: 10px;
-}
-p.text-home{
-    text-align: justify;
-    text-indent: 20px;
-    color: rgb(194, 194, 194);
-}
-.ingat{
-    padding: 10px 0;
-}
-.ingat>input{
-    padding: 10px;
-    border: solid 10px #5D6CDF;
-}
-.ingat>label{
-    color: #5D6CDF;
-}
-.btn-masuk{
-   width: 100%;
-    padding: 10px 0px;
-    text-align: center;
-    color: white;
-    border-radius: 10px;
-    border: none;
-    box-shadow:0 5px 6px rgba(0, 0, 0, 0.16);
-}
-.alert-merah{
-    background: rgba(236, 62, 62, 0.863);
-    color: white;
-    width: 80%;
-    padding: 3px 20px;
-    margin: 5px auto;
-    border-radius: 20px; 
-    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
-}
-
 .form-group>input,.form-group>textarea{
     border-radius: 10px;
     border: 2px white solid;
@@ -392,8 +273,11 @@ p.text-home{
     color: white;
     width: 100%;   
 }
+.form-group>textarea{
+    resize: none;  
+}
 
-.form-group>input::placeholder{
+.form-group>input::placeholder,.form-group>textarea::placeholder{
     color: white;
 }
 div.form-inline{
@@ -423,13 +307,256 @@ div.form-inline > .form-group:nth-child(1){
     color: #5D6CDF;
 
 }
-a.circle{
-    display: block;
-    background: blue;
-    border-radius: 100%;
-    padding: 10px;
-    height: 100px;
-    margin: 10px auto;
-    
-    
+.hubungi-judul{
+    color: white;
 }
+.bottom{
+    background: #50aade;
+    padding: 20px;
+}
+.arrow{
+    position: absolute;
+    display: block;
+    right:50%;
+    font-size: 10px;
+    bottom: -3%;
+    padding: 10px 10px;;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    background: white;
+    border-radius: 100%;
+    box-shadow:0 5px 6px rgba(0, 0, 0, 0.16) ;
+}
+.breadcrumb{
+    box-shadow:0 3px 5px rgba(0, 0, 0, 0.16) ;
+    padding: 15px 20px;;
+    color:  rgb(194, 194, 194); 
+    margin-top: 70px;
+}
+/* Tab */
+input.tab, section.konten {
+    clear: both;
+    padding-top: 10px;
+    display: none;
+  }
+  label.tab {
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    float: left;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: rgb(145, 144, 144);
+  }
+  label.tab:hover {
+    cursor: pointer;
+  }
+  #tab1:checked ~ #content1, #tab2:checked ~ #content2, #tab3:checked ~ #content3 {
+    display: block;
+    
+  }
+  input.tab:checked + label.tab {
+    box-shadow:0 5px 6px rgba(0, 0, 0, 0.16) ;
+    background-color: #50aade;
+    text-decoration: none;
+    color: white;
+  }
+
+/* Form Login */
+body.masuk{
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.box-login{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: 30px;
+    padding: 10px 10px 30px 10px;
+    margin: 10px auto;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
+}
+.box-login .huruf{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(48, 122, 219);
+}
+.box-login form{
+    text-align: left;
+    color: black;
+    padding: 0px 50px;
+}
+.box-login>form>label.title{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: left;
+    color : #50aade;
+    display: block;
+}
+.box-login form input[type=text],.box-login form input[type=password]{
+    border-radius: 15px;
+    border: 2px #ffffff solid;
+    width: 100%;
+    padding: 10px;
+}
+.btn-masuk{
+    width: 100%;
+     padding: 10px 0px;
+     text-align: center;
+     color: white;
+     border-radius: 10px;
+     border: none;
+     box-shadow:0 5px 6px rgba(0, 0, 0, 0.16);
+ }
+
+.login{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+}
+.ingat {
+    margin: 5px 0;
+}
+.ingat label{
+    color: #4b4b4b;
+}
+.tree{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.tree ul {
+	padding-top: 20px; position: relative;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+.tree li {
+	float: left; text-align: center;
+	list-style-type: none;
+	position: relative;
+	padding: 20px 5px 0 5px;	
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+/*We will use ::before and ::after to draw the connectors*/
+
+.tree li::before, .tree li::after{
+	content: '';
+	position: absolute; top: 0; right: 50%;
+	border-top: 1px solid #ccc;
+	width: 50%; height: 20px;
+}
+.tree li::after{
+	right: auto; left: 50%;
+	border-left: 1px solid #ccc;
+}
+
+/*We need to remove left-right connectors from elements without 
+any siblings*/
+.tree li:only-child::after, .tree li:only-child::before {
+	display: none;
+}
+
+/*Remove space from the top of single children*/
+.tree li:only-child{ padding-top: 0;}
+
+/*Remove left connector from first child and 
+right connector from last child*/
+.tree li:first-child::before, .tree li:last-child::after{
+	border: 0 none;
+}
+/*Adding back the vertical connector to the last nodes*/
+.tree li:last-child::before{
+	border-right: 1px solid #ccc;
+	border-radius: 0 5px 0 0;
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after{
+	border-radius: 5px 0 0 0;
+	-webkit-border-radius: 5px 0 0 0;
+	-moz-border-radius: 5px 0 0 0;
+}
+
+/*Time to add downward connectors from parents*/
+.tree ul ul::before{
+	content: '';
+	position: absolute; top: 0; left: 50%;
+	border-left: 1px solid #ccc;
+	width: 0; height: 20px;
+}
+
+.tree li a{
+	border: 1px solid #ccc;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #666;
+	font-family: arial, verdana, tahoma;
+	font-size: 20px;
+	display: inline-block;
+	
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+/*Time for some hover effects*/
+/*We will apply the hover effect the the lineage of the element also*/
+.tree li a:hover, .tree li a:hover+ul li a {
+	background: #c8e4f8; color: #000; border: 1px solid #94a0b4;
+}
+/*Connector styles on hover*/
+.tree li a:hover+ul li::after, 
+.tree li a:hover+ul li::before, 
+.tree li a:hover+ul::before, 
+.tree li a:hover+ul ul::before{
+	border-color:  #94a0b4;
+}
+
+
+@media (max-width: 767px) {
+    .unej {
+        margin-top: 50px;
+      text-align: center;
+    }
+    .text-unej{
+        text-align: justify;
+    }
+    .slogan{
+        display: block;
+        margin: 10px auto;
+    }
+    .logo-unej{
+        width: 100%;
+    }
+    .margin-top{
+        margin-top: 60px;
+    }
+    .gbr-lingkaran{
+        width: 70%;
+    }
+  }
+  @media (min-width: 992px) {
+    .toggle{
+        margin-top: 30px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .toggle{
+        margin-top: 30px;
+    }
+  }
+  

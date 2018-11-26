@@ -5,36 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Masuk Admin Struktur Organisasi</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/layout.css">
-    <title>Universitas Negeri Jember</title>
 </head>
 
-<body>
-    <div class="bg-login">
-        <div class="wadah">
-            <a href="index.html" class="masuk">Beranda</a>
-            <div class="login">
-                <div class="logo">
-                    <a href="#"><img src="assets/img/logo.png" height="70px" alt=""></a>
+<body class="masuk">
+    <div class="login">
+        <div class="box-login">
+            <p class="huruf"> <b>MASUK</b></p>
+            <form>
+                <label for="username" class="title">User Name </label>
+                <input id="username" type="text" name="username"><br>
+                <label for="password" class="title">Password</label>
+                <input id="password" type="password" name="password" class="title">
+                <div class="ingat">
+                    <input id="check" type="checkbox" name="remember">
+                    <label for="check">Ingat Saya</label>
+
                 </div>
-                <div class="box-login">
-                    <p class="huruf"> <b>MASUK</b></p>
-                    <hr>
-                    <form>
-                        <label for="username" class="title">User Name </label>
-                        <input id="username" type="text" name="username"><br>
-                        <label for="password" class="title">Password</label>
-                        <input id="password" type="password" name="password" class="title">
-                        <div class="ingat">
-                            <input id="check" type="checkbox" name="remember">
-                            <label for="check">Ingat Saya</label>
-                            
-                        </div>
-                        <button class="btn-masuk bg-gradient"> Masuk</button>
-                    </form>
-                </div>
-            </div>
+                <button class="btn-masuk bg-gradient"> Masuk</button>
+            </form>
         </div>
     </div>
 </body>
+
+</html>
